@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UnderweightAdvice"
+    android:background="@drawable/wallpaper">
+
+    <TextView
+        android:id="@+id/TVunder"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="TIPS TO GAIN WEIGHT"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVtipsunder"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/allerta"
+        android:text="  1. EAT FREQUENTLY\n
+People who are underweight need to consume more food to get enough calories per day.\n\n
+
+2. EAT MORE NUTRIENT FOOD\n
+Consume nutrient-dense food such as lean protein, whole grain, legumes, low-fat products, nuts and seeds, and fruits and vegetables.\n\n
+
+3. ADD CALORIE-DENSE SNACK\n
+Consume calorie-dense snack in between meals. These should still be nutrious and contain a mix of protein and carbohydrates.\n\n"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVunder" />
+
+    <Button
+        android:id="@+id/BTNnext4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="NEXT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVtipsunder"
+        app:layout_constraintVertical_bias="0.939" />
+
+</android.support.constraint.ConstraintLayout>

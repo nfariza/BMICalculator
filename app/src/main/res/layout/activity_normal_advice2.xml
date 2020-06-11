@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NormalAdvice"
+    android:background="@drawable/wallpaper">
+
+    <TextView
+        android:id="@+id/TVnormal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="TIPS TO MAINTAIN YOUR BMI"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVtipsnormal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/allerta"
+        android:text="  1. GET AND STAY ACTIVE.\n
+Exercise sounds unpleasant, but it is crucial part of maintaining a healthy BMI.\n\n
+
+2. CUT OUT HIGH CALORIE DRINKS.\n
+Drinks that are high in sugar or calories are major cause of weight gain.\n\n
+
+3. EAT HEALTHY.\n
+Increase fruit and vegetable intake, decrease harmful fats, and you will be able to maintain your BMI while also enjoying more energy and better organ function."
+        app:layout_constraintBottom_toTopOf="@+id/BTNnext6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVnormal" />
+
+    <Button
+        android:id="@+id/BTNnext6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/acme"
+        android:text="NEXT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVtipsnormal" />
+</android.support.constraint.ConstraintLayout>

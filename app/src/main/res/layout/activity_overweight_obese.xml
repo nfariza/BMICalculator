@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OverweightObese"
+    android:background="@drawable/wallpaper">
+
+    <TextView
+        android:id="@+id/TVover"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="TIPS TO LOSE WEIGHT"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVtipsover"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/allerta"
+        android:text="  1. EATING A HEALTHY BALANCE DIET.\n
+This will ensure that you able to lose weight in a healthy manner.\n\n
+
+2. PRACTICE A REGULAR PHYSICAL ACTIVITY.\n
+Practice doing cardio activity regularly as it is the most efficient way to burn fats in a short period of time.\n\n
+
+3. REDUCE YOUR SUGAR INTAKE IN PARTICULAR.\n
+Sugar and sugary products contain high calories and can be high in fat as well. So control your sugar intake."
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/BTNnext5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVover" />
+
+    <Button
+        android:id="@+id/BTNnext5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="NEXT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVtipsover"
+        app:layout_constraintVertical_bias="0.87" />
+</android.support.constraint.ConstraintLayout>
