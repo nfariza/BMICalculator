@@ -6,6 +6,11 @@ This project proposes to help adults in calculating Body Mass Index (BMI).
 * The application will show the result whether the user's BMI is normal. underweight, overweight, obese or extremely obese.
 * The user can choose to exit the application or calculate the BMI again.
 
+## Contributor 
+Group project consists of two students. 
+* Nur Fariza Binti Baharuddin [In charge with coding]
+* Puveemalar A/P Parameswaran
+
 ## Activity/Page
 * Homepage/Main Activity
 * Personal Details
